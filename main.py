@@ -2,7 +2,7 @@ import os
 import pandas as pd
 
 # Definir la ruta de la carpeta
-folder_path = 'Datos/Consolidado 2/Archivos'
+folder_path = 'data'
 
 # Obtener una lista de todos los archivos CSV en la carpeta
 csv_files = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
